@@ -1,4 +1,4 @@
-#c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 <C:\Users\FILIP\OneDrive\Documents\DBeaver_files\klub_citatelja.sql
+#c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 <C:\Users\xyz\Documents\GitHub\ERA_sql\klub_citatelja.sql
 
 drop database if exists klub_citatelja;
 create database klub_citatelja;
@@ -41,4 +41,20 @@ insert into clan(ime, prezime,email, datum_upisa) values
 insert into clan(ime, prezime,email, datum_upisa) values 
 ('Seve','Severina','seve22@seve.hr','2020-03-24 18:45:22 PM');
 
-insert into knjiga(naslov,) values 
+insert into knjiga(naslov,vlasnik,autor) values
+('Povratak kralja',3,'J. R. R. Tolkien');
+
+insert into knjiga(naslov,vlasnik,autor) values
+('Prstenova družina',2,'J. R. R. Tolkien'); 
+
+insert into knjiga(naslov,vlasnik,autor) values
+('Dvije kule',1,'J. R. R. Tolkien'); 
+
+insert into izlaganje(vrijeme_izlaganja,knjiga,clan) values
+(null,1,2);
+
+insert into izlaganje(vrijeme_izlaganja,knjiga,clan) values
+(null,2,1);
+
+insert into izlaganje(vrijeme_izlaganja,knjiga,clan) values
+(null,3,3);
