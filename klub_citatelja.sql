@@ -58,3 +58,7 @@ insert into izlaganje(vrijeme_izlaganja,knjiga,clan) values
 
 insert into izlaganje(vrijeme_izlaganja,knjiga,clan) values
 (null,3,3);
+
+update izlaganje set vrijeme_izlaganja='2023-05-06 11:10:00 AM' where sifra=1;
+update izlaganje set vrijeme_izlaganja='2023-05-06 05:15:00 PM' where sifra=2;
+update izlaganje set vrijeme_izlaganja='2023-05-06 07:00:00 PM' where sifra=3;
