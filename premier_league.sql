@@ -1,4 +1,4 @@
-#c:\xampp\mysql\bin\mysql -uroot <C:\Users\FILIP\OneDrive\Documents\DBeaver_files\premier_league.sql
+#c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 <C:\Users\xyz\Documents\GitHub\ERA_sql\premier_league.sql
 
 
 drop database if exists premier_league;
